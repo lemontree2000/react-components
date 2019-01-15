@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import {Icon} from 'antd-mobile';
 class AddressPicker extends React.Component {
     componentDidMount() {
 
@@ -11,7 +12,9 @@ class AddressPicker extends React.Component {
                 <div className="address-picker-container">
                     <header>
                         <span>请选择</span>
-                        <i className="close">x</i>
+                        <i className="close">
+                        <Icon type="cross" size="xxs"/>
+                        </i>
                     </header>
                     <section className="result-steps">
                         <ul>
