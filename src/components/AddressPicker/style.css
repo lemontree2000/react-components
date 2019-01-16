@@ -11,6 +11,7 @@
     transform: translateZ(1px);
 }
 .address-picker-container{
+    background-color: #eee;
     left: 0;
     bottom: 0;
     position: fixed;
@@ -18,13 +19,29 @@
     width: 100%;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
-    background-color: #fff;
     padding-bottom: env(safe-area-inset-bottom);
 }
 
 .address-picker-container header {
+    background-color:#fff;
     height: 40px;
     line-height: 40px;
     text-align: center;
     font-size: 16px;
+}
+.address-picker-container header .close {
+    position: absolute;
+    right: 0;
+    width: 30px;
+}
+header .close .am-icon {
+    vertical-align: middle;
+    color: #969494;
+    margin-bottom: 8px;
+}
+.address-picker-container .result-steps {
+    background-color: #fff;
+}
+.picker-list {
+    background-color: #eee;
 }

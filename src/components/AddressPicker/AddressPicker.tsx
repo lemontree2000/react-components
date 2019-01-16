@@ -13,7 +13,7 @@ class AddressPicker extends React.Component {
                     <header>
                         <span>请选择</span>
                         <i className="close">
-                        <Icon type="cross" size="xxs"/>
+                            <Icon type="cross" color="#ddd"/>
                         </i>
                     </header>
                     <section className="result-steps">
